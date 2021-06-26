@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39834" started-at="2021-06-26T14:13:37 EDT" finished-at="2021-06-26T14:14:16 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39834" started-at="2021-06-26T14:13:37 EDT" finished-at="2021-06-26T14:14:16 EDT">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.LoginTest@12c8a2c0]" name="beforeClass" is-config="true" duration-ms="6714" started-at="2021-06-26T14:13:37 EDT" finished-at="2021-06-26T14:13:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="LoginHRM()[pri:0, instance:testcases.LoginTest@12c8a2c0]" name="LoginHRM" duration-ms="6012" started-at="2021-06-26T14:13:43 EDT" description="Log in to OrangeHRM" finished-at="2021-06-26T14:13:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHRM -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testcases.LoginTest@12c8a2c0]" name="appendReport" is-config="true" duration-ms="1682" started-at="2021-06-26T14:13:49 EDT" finished-at="2021-06-26T14:13:51 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHRM status=SUCCESS method=LoginTest.LoginHRM()[pri:0, instance:testcases.LoginTest@12c8a2c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="LoginHRMExcel(java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTest@12c8a2c0]" name="LoginHRMExcel" duration-ms="4269" started-at="2021-06-26T14:13:53 EDT" description="Log in to OrangeHRM using Excel" data-provider="Sheet1" finished-at="2021-06-26T14:13:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHRMExcel -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testcases.LoginTest@12c8a2c0]" name="appendReport" is-config="true" duration-ms="502" started-at="2021-06-26T14:13:58 EDT" finished-at="2021-06-26T14:13:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHRMExcel status=SUCCESS method=LoginTest.LoginHRMExcel(java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTest@12c8a2c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:testcases.LoginTest@12c8a2c0]" name="closeSession" is-config="true" duration-ms="1239" started-at="2021-06-26T14:13:58 EDT" finished-at="2021-06-26T14:13:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.UserManagementTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.UserManagementTest@1990a65e]" name="beforeClass" is-config="true" duration-ms="3646" started-at="2021-06-26T14:13:59 EDT" finished-at="2021-06-26T14:14:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="UMTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UserManagementTest@1990a65e]" name="UMTest" duration-ms="10589" started-at="2021-06-26T14:14:04 EDT" description="Testing the Add User Button" data-provider="Sheet2" finished-at="2021-06-26T14:14:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fiona Grace]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[seleniumxyz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[selenium123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UMTest -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testcases.UserManagementTest@1990a65e]" name="appendReport" is-config="true" duration-ms="335" started-at="2021-06-26T14:14:14 EDT" finished-at="2021-06-26T14:14:15 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UMTest status=SUCCESS method=UserManagementTest.UMTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UserManagementTest@1990a65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:testcases.UserManagementTest@1990a65e]" name="closeSession" is-config="true" duration-ms="1699" started-at="2021-06-26T14:14:15 EDT" finished-at="2021-06-26T14:14:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- testcases.UserManagementTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
